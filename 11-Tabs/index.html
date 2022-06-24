@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>about</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          explicabo asperiores quia cum amet, sint perspiciatis vero quidem
+          voluptatibus consequuntur!
+        </p>
+      </div>
+      <div class="about-center section-center">
+        <!-- img container -->
+        <article class="about-img">
+          <img src="./hero-bcg.jpeg" alt="about picture" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <!--text contents -->
+          <article class="about-content">
+          <!--start of first item -->
+          <div class="content active" id="history">
+            <h4>history</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque, perspiciatis?
+            </p>
+          </div>
+          <!--end of first item -->
+          <!--start of 2nd item -->
+          <div class="content " id="vision">
+            <h4>vision</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              soluta delectus dicta saepe doloremque, vero itaque unde sunt
+              omnis possimus.
+            </p>
+            <ul>
+              <li>list item</li>
+              <li>list item</li>
+              <li>list item</li>
+            </ul>
+          </div>
+          <!--end of 2nd item -->
+          <!--start of 3rd item -->
+          <div class="content " id="goals">
+            <h4>goals</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+              cumque sapiente excepturi? Recusandae, necessitatibus. Ex magni
+              explicabo neque expedita dolore ab modi a distinctio nulla sint,
+              rerum architecto unde consectetur.
+            </p>
+          </div>
+          <!--end of 3rd item -->
+        </article>
+          
+        </article>
+        
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
